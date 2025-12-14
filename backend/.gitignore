@@ -1,9 +1,9 @@
 # Python
-backend/venv/
-backend/__pycache__/
+venv/
+__pycache__/
 
 # Database
-backend/*.db
+*.db
 
 # Environment
-backend/.env
+.env
