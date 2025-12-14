@@ -1,1 +1,9 @@
-*.db
+# Python
+backend/venv/
+backend/__pycache__/
+
+# Database
+backend/*.db
+
+# Environment
+backend/.env
