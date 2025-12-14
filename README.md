@@ -114,7 +114,7 @@ http://127.0.0.1:8000/docs
 
 ### Purchase Sweet
 
-![Purchase Sweet](screenshots/purchase.png)
+![Purchase Sweet](screenshots/Purchase.png)
 
 ### Search Sweets
 
