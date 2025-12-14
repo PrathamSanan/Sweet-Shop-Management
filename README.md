@@ -6,6 +6,17 @@ inventory management, purchasing, restocking, and searching sweets.
 
 ---
 
+## 🚀 Live Deployment
+
+🔗 **Backend API (Render):**  
+https://sweet-shop-management-ssrh.onrender.com
+
+📘 **Swagger API Docs:**  
+https://sweet-shop-management-ssrh.onrender.com/docs
+
+---
+
+
 ## 🚀 Features
 
 ### 🔐 Authentication
