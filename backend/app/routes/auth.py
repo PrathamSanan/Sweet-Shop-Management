@@ -46,7 +46,8 @@ def login(data: LoginRequest, db: Session = Depends(get_db)):
     if not user or not verify_password(data.password, user.password):
         raise HTTPException(status_code=401, detail="Invalid credentials")
 
-    token = create_access_token({"sub": user.email})
+    token = create_access_token({"sub": user.email,
+                                 "is_admin": user.is_admin})
 
     return {
         "access_token": token,
